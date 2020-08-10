@@ -2,14 +2,14 @@
 public class DivisorCalc {
 
 	public static void main(String[] args) {
-		
+
 		// initializing variables num1 and num2
-		int num1= 75;
-		int num2= 100;
-		
+		int num1 = 200;
+		int num2 = 150;
+
 		// run method gcd on num1 & num2 and print results
-		System.out.print("The greatest common divisor between " + num1 + " and " + num2 + " equals " + 	gcd(num1, num2));
-		}
+		System.out.print("The greatest common divisor between " + num1 + " and " + num2 + " equals " + gcd(num1, num2));
+	}
 
 	static int gcd(int num1, int num2) {
 

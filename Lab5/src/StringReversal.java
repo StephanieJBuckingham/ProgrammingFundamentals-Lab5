@@ -2,7 +2,7 @@ public class StringReversal {
 
 	// driver program to test implementation
 	public static void main(String args[]) {
-		reverseString("H");
+		reverseString("Hello");
 	}
 
 	// create method called reverseString
